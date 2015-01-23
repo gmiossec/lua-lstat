@@ -36,3 +36,6 @@ distclean: clean
 install: $(TARGET)
 	@echo "[lua-lstat] Install"
 	@$(INSTALL) -m 644 $(TARGET) $(PREFIX)$(DESTDIR)
+
+rockspec:
+	luarocks pack lua-lstat-0.1.0-1.rockspec
