@@ -2,7 +2,7 @@ package = "lua-lstat"
 version = "0.1.0-1"
 
 source = {
-   url = "git://git/lib/lua-lstat.git",
+   url = "https://github.com/gmiossec/lua-lstat.git",
    tag = "0.1.0",
 }
 
